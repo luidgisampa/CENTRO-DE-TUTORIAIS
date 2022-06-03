@@ -1,0 +1,45 @@
+.menu {
+  /* adicione o código correto para colocar o menu corretamente.*/
+  display: flex;
+  justify-content:space-between ;
+
+  background-color: black;
+  font-size: 30px;
+  font-family: sans-serif;
+  font-weight: 400;
+  color: white;
+
+  border: 3px solid rgb(0, 0, 0);
+  border-radius: 10px;
+}
+
+body {
+  background-color: rgb(224, 213, 213);
+}
+
+.bodyimg {
+  border: 4px solid rgb(0, 0, 0);
+  border-radius: 10px;
+}
+
+.grid {
+  border: 3px solid rgb(0, 0, 0);
+  border-radius: 10px;
+
+  flex-wrap: wrap;
+  font-family: sans-serif;
+}
+
+.grid img {
+  border: 3px solid rgb(0, 0, 0);
+  border-radius: 10px;
+}
+
+.origami {
+  border-radius: 10px;
+  background-color: white;
+  margin: 20px;
+
+  width: 310px;
+  font-family: fantasy;
+}
